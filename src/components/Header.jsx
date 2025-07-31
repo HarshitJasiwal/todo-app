@@ -25,6 +25,18 @@ function Header({ addTodo }) {
       >
         Add
       </button>
+       <a
+        href="https://github.com/HarshitJasiwal/todo-app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-2 bg-white text-blue-600 font-semibold px-4 py-2 rounded-lg shadow hover:bg-blue-100 transition-all duration-200"
+      >GitHub</a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 16 16"
+          fill="currentColor"
+          className="w-5 h-5"
+        ></svg>
     </form>
   );
 }
